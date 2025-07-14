@@ -17,12 +17,10 @@
 
 ### 🌐 Core Loop
 
-```
-Character Selection → Challenger → Matchmaking → Stage Challenge → Elimination → Payment → Character Selection
-Character Selection → Challenger → Matchmaking → Stage Challenge → Advancement → Final Victory → Reward: 100 coins → Character Selection
-Character Selection → Spectator → Deduct 100 coins → Bet on Challenger → Bet Challenger Eliminated → Lose all bet coins
-Character Selection → Spectator → Deduct 100 coins → Bet on Challenger → Bet Challenger Advances → Bet Challenger Wins → Get same reward as challenger + all other spectators' bet coins
-```
+- Character Selection → Challenger → Matchmaking → Stage Challenge → Elimination → Payment → Character Selection
+- Character Selection → Challenger → Matchmaking → Stage Challenge → Advancement → Final Victory → Reward: 100 coins → Character Selection
+- Character Selection → Spectator → Deduct 100 coins → Bet on Challenger → Bet Challenger Eliminated → Lose all bet coins
+- Character Selection → Spectator → Deduct 100 coins → Bet on Challenger → Bet Challenger Advances → Bet Challenger Wins → Get same reward as challenger + all other spectators' bet coins
 
 ### 🔥 Core Fun
 
@@ -120,26 +118,22 @@ Character Selection → Spectator → Deduct 100 coins → Bet on Challenger →
 
 ### 1. Red Light Green Light Stage Prototype (Diagram)
 
-```
-+-----------------------------+
-|                             |
-|    Player Start →→→→→→→     |
-|                             |
-|       [Giant Doll View]     |
-|                             |
-+-----------------------------+
+Player Start ———————→→→→→→→
+
+[Giant Doll View]
+
 Note: Players must move during green light, stay still during red light, or be eliminated.
-```
+
+---
 
 ### 2. Glass Bridge Stage Prototype (Diagram)
 
-```
 Spaces are reinforced glass, X is normal glass
 
 [ ]   [ ]   [ ]   [ ]   [ ]
 [X]   [ ]   [X]   [ ]   [X]
-Players jump from left to right, must judge each time
-```
+
+Players jump from left to right, must judge each time.
 
 > These diagrams can also be converted to Figma prototypes or SVG diagrams for further design.
 
